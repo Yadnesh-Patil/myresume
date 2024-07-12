@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'CSS/base.css' %}">
+
+
+
+</head>
+
+<body style="background-color:#e6e6e6 ; margin: 0%; padding: 0%;">
+
+    <div class="mainbody">
+
+
+        <!-- Navbar -->
+        <header>
+            <a href="" class="logo">codeFolio</a>
+            <ul>
+                <li><a href="#HOMEPAGE">Home</a></li>
+                <li><a href="#ABOUTPAGE">About</a></li>
+                <li><a href="#PROJECTPAGE">Projects</a></li>
+                <li><a href="#RESUMEPAGE">Resume</a></li>
+                <li><a href="#CONTACTPAGE">Contact</a></li>
+                <li><a href="#servicePage">Services</a></li>
+            </ul>
+        </header>
+        <!-- <section class="banner"></section> -->
+
+
+
+        <!-- 
+    <nav>
+        <div class="left">codeFolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#ABOUTPAGE">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="#PROJECTPAGE">Projects</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav> -->
+
+
+
+        <!-- Landing screen -->
+
+        <div class="firstsection" id="HOMEPAGE">
+            <div class="leftsection">
+                Hello, I'm <span class="purple">Yadnesh</span>
+                <div>and I'm a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a
+                            href="https://drive.google.com/file/d/1uskQbvBUXUC0WuAaz5uyvJWVSRQCENaA/view?usp=drive_link"
+                            target="_blank">Download Resume</a></button>
+                    <button class="btn"><a href="" class="hire">Hire Me</a></button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="/static/Images/IMG_2378[8pp+ og soft].JPG" alt="No Image">
+            </div>
+        </div>
+
+
+
+        <!-- About page -->
+
+        <div class="about" id="ABOUTPAGE">
+
+            <div class="imgdiv">
+                <img class="aboutimg" src="/static/Images/IMG_2378[8pp+ og soft].JPG" alt="No Image">
+            </div>
+
+            <div class="aboutme">
+                <div class="abouthead">
+                    <h5>WHO AM I ?</h5>
+                </div>
+
+                <div class="short">
+                    <h1>I'm Yadnesh Patil, a Python FullStack Developer and Web Designer</h1>
+                </div>
+
+
+                <div class="mypara">
+
+                    <p>I am a Python developer, specialize in building web
+                        applications using Python frameworks such as Django and Flask for the backend, and I'm
+                        proficient in
+                        frontend technologies like HTML, CSS, and JavaScript. I have worked on various projects where
+                        I've
+                        implemented features, optimized performance, and collaborated with cross-functional teams to
+                        deliver
+                        high-quality software solutions.</p>
+                </div>
+
+                <div class="socialmedia">
+                    <a href="https://github.com/Yadnesh-Patil" target="_blank"><img src="/static/Images/social.png"
+                            alt="No Image"></a>
+                    <a href="https://www.instagram.com/yadnesh_patil_4943/" target="_blank"><img
+                            src="/static/Images/instagram.png" alt="No Image"></a>
+                    <a href="https://www.linkedin.com/in/yadnesh-patil-068846153/" target="_blank"><img
+                            src="/static/Images/github.png" alt="No Image"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Projects -->
+
+        <div class="projectspage" id="PROJECTPAGE">
+            <div>
+                <h2>Projects</h2>
+            </div>
+        </div>
+
+        <div class="projects">
+
+
+
+            <div class="card-container">
+                <div class="card">
+                    <!-- <img src="/static/Images/dot.png" alt=""> -->
+                    <div class="card-content">
+                        <h3>Car Rental System</h3>
+                        <p>In this project user will be able to rent a car online through the website. Admin will
+                            be able to manage data of the payments, Insurance, bookings, users, cars. User
+                            has to sign in to rent a car. In this user can view the details of the car.</p>
+                        <!-- <button class="collapsible">Read More</button>
+                        <p class="contentc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laudantium
+                            inventore ipsum quod
+                            porro ea. Similique sed tempore rem amet.</p> -->
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <!-- <img src="/static/Images/dot.png" alt=""> -->
+                    <div class="card-content">
+                        <h3>File Transfer</h3>
+                        <p>In this project user can share multiple files through API (Postman) or Website, in
+                            return user will get a link to download those files which are uploaded using this
+                            web application.</p>
+                        <p>It enables sharing, transferring or transmitting a file or a logical data object between
+                            different users and/or computers both locally and remotely</p>
+
+                        <!-- <button class="collapsible">Read More</button> -->
+
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <!-- <img src="/static/Images/dot.png" alt=""> -->
+                    <div class="card-content">
+                        <h3>Gallery Project</h3>
+                        <p>In this project user create his account and upload images and also can see images
+                            uploaded by other users where he can search images based on search
+                            category.</p>
+                        <!-- <button class="collapsible">Read More</button> -->
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <!-- <img src="/static/Images/dot.png" alt=""> -->
+                    <div class="card-content">
+                        <h3>API CRUD operations</h3>
+                        <p>Made a simple API project through which we can map employees to their
+                            respective companies, where we can update, create, delete the details of
+                            employees and company using rest API through POSTMAN API development
+                            tool.</p>
+                        <!-- <button class="collapsible">Read More</button> -->
+                    </div>
+                </div>
+
+                <div class="card">
+                    <!-- <img src="/static/Images/dot.png" alt=""> -->
+                    <div class="card-content">
+                        <h3>Restaurant Management System</h3>
+                        <p>MS, is software designed to streamline restaurant operations and simplify restaurant
+                            management.terms of features and functions, but most include point of sale (POS), inventory
+                            management, staff management, payroll, employee scheduling.</p>
+                        <!-- <button class="collapsible">Read More</button> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Resume -->
+
+        <div class="resumepage" id="RESUMEPAGE">
+            <div>
+                <h2>My Resume</h2>
+            </div>
+            <div class="objective">
+                <p>Recent non-IT professional with three years of experience seeking a challenging role
+                    as a Python Full Stack Developer. Eager to leverage my strong analytical and
+                    problem-solving skills developed in previous roles, coupled with a newfound passion
+                    for coding, to contribute effectively to a dynamic development team.</p>
+            </div>
+
+        </div>
+
+        <div class="details">
+
+
+
+            <div class="work">
+
+                <div>
+                    <h2>Work Experience</h2>
+                </div>
+
+                <div>
+                    <h3><span class="purple">Cirrius Technologies</span> (Aug-2018 / Sept-2021)</h3>
+                    <h4><span class="purple">Product Executive</span> (Aug-2018 to July-2020) and <span
+                            class="purple">Team
+                            Leader</span> (Aug-2020 to Sept-2021)</h4>
+                    <p>Documentation of all communication with users and accounts accurately
+                        and in a timely manner via system tools. Ensuring that issues are escalated
+                        appropriately to relevant internal departments and management regarding
+                        the product (Phyzii CRM).</p>
+                    <p>Aligning with key stake holders to establish stronger customer relationship
+                        management and function with internal cross functional teams like (product,
+                        support) to ensure customer issues/solutions are addressed.</p>
+                    <p>Identify and reconcile errors in client data to ensure accurate business
+                        requirements. Frequent meetings at client end for requirement gathering
+                        and discussing priority issues.
+                        .</p>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="education">
+
+                <div>
+                    <h2>Qualification</h2>
+                </div>
+
+                <div>
+                    <h3>Bachelor of Science - Information Technologies</h3>
+                    <h4>Mumbai University</h4>
+                </div>
+
+
+                <div>
+                    <h3>HSC</h3>
+                    <h4>Maharashtra State Board of Secondary & Higher Secondary Education</h4>
+                </div>
+
+                <div>
+                    <h3>SSC</h3>
+                    <h4>Maharashtra State Board of Secondary & Higher Secondary Education</h4>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- COntact Page -->
+
+        <div class="contact" id="CONTACTPAGE">
+            <div>
+                <h2>Contact</h2>
+            </div>
+
+
+            <div class="card-container">
+                <div class="card-contact">
+                    <img src="/static/Images/pin.png" alt="" class="contactimg">
+                    <div class="card-content-contact">
+                        <h3>Our Address</h3>
+                        <h5>DevichaPada,Dombivli West (421202)</h5>
+
+                    </div>
+                </div>
+
+                <div class="card-contact">
+                    <img src="/static/Images/phone-call.png" alt="" class="contactimg">
+                    <div class="card-content-contact">
+                        <h3>Email Us</h3>
+                        <h5>yadneshpatil132@gmail.com</h5>
+                        <h5>yadnesh.jaynath.patil@gmail.com</h5>
+
+                    </div>
+                </div>
+
+
+
+                <div class="card-contact">
+                    <img src="/static/Images/email.png" alt="" class="contactimg">
+                    <div class="card-content-contact">
+                        <h3>Call Us</h3>
+                        <h5>+91-8097914943</h5>
+                        <h5>+91-9321465988</h5>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <!-- Contact Form -->
+
+            <div class="emmap">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7534.234439136102!2d73.07799569065767!3d19.23372247801388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7be1ccecd4f85%3A0x64fe821ecb81f60a!2sDevicha%20Pada%2C%20Dombivli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1709978583923!5m2!1sen!2sin"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contactform">
+                    <form action="{% url 'home' %}" method="post">
+
+                        {% csrf_token %}
+
+                        <div class="form-content">
+                            <div class="form-element">
+                                <input type="text" name="yourname" maxlength="254" placeholder="Your Name" required
+                                    id="id_yourname">
+                            </div>
+
+                            <div class="form-element">
+                                <input type="text" name="youremail" maxlength="254" placeholder="Your Email" required
+                                    id="id_youremail">
+                            </div>
+
+                            <div class="form-element">
+                                <input type="text" name="yourcontact" maxlength="254" placeholder="Your Contact"
+                                    required id="id_yourcontact">
+                            </div>
+
+                            <div class="form-element">
+                                <input type="text" name="subject" maxlength="254" placeholder="Subject" required
+                                    id="id_subject">
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-element">
+                            <textarea name="msg" id="id_msg" cols="73" rows="10" placeholder="Your Message"
+                                class="form-control"></textarea>
+
+                        </div>
+
+
+                        <div class="form-element">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <!-- Services -->
+
+        <div class="serv" id="servicePage">
+
+            <div>
+                <h2>Services</h2>
+            </div>
+
+
+            <div class="servcard-container">
+                <div class="servcard">
+                    <div class="card-content-serv">
+                        <img src="/static/Images/ux.png" alt="">
+                        <h3>Web Design</h3>
+                        <p>Design a websites were user can interact with the website. Creating forms, menus and
+                            navigation bars.</p>
+                        <p>Main aim is to make the website visually appealing and user-friedly.</p>
+                    </div>
+                </div>
+
+                <div class="servcard">
+                    <div class="card-content-serv">
+                        <img src="/static/Images/responsive-design.png" alt="">
+                        <h3>Responsive Design</h3>
+                        <p>Designing the websites as per the requirements.</p>
+                        <p>So that user can access the websites from other devices</p>
+                    </div>
+                </div>
+
+                <div class="servcard">
+                    <div class="card-content-serv">
+                        <img src="/static/Images/app-development.png" alt="">
+                        <h3>Development</h3>
+                        <p>Building a website using latest technologies and tools.</p>
+                        <p>Website made using Python, HTML, CSS, JavaScript, Bootstrap, MySQL.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    <!-- Setup and start animation! -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Python Developer.'],
+            typeSpeed: 50,
+        });
+
+
+
+
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var contentc = this.nextElementSibling;
+                if (contentc.style.display === "block") {
+                    contentc.style.display = "none";
+                } else {
+                    contentc.style.display = "block";
+                }
+            });
+        }
+
+
+        window.addEventListerner("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
